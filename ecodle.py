@@ -1,4 +1,3 @@
-#WORDLE
 import tkinter as tk
 import english_words as ew
 import random as ran
@@ -169,7 +168,7 @@ palabras = [palabra.upper() for palabra in palabras]
 secreta = ran.choice(palabras).upper()
 
 root = tk.Tk()
-root.title("Ecodle!")
+root.title("ECODLE!")
 #root.geometry(f"{root.winfo_screenwidth()}x{root.winfo_screenheight()}")
 root.state('zoomed')
 
@@ -183,7 +182,7 @@ cont.pack(expand=True, fill="both")
 
 mensaje = tk.Label(cont, font=("Source Code Pro", 20), fg=LT_COLOR)
 
-titulo = tk.Label(cont, text="WORDLE!", font=("Source Code Pro", 40, "bold"), bg=BG_COLOR, fg=LT_COLOR)
+titulo = tk.Label(cont, text="ECODLE!", font=("Source Code Pro", 40, "bold"), bg=BG_COLOR, fg=LT_COLOR)
 titulo.pack(pady=((root.winfo_reqheight()/2), 0))
 
 #Parte para los aciertos
